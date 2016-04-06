@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vocadbLayout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/vorestextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/LightGrey"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/wordsbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Words"
+                    android:enabled="false" />
+
+                <Button
+                    android:id="@+id/idomsbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Idioms"/>
+
+                <ToggleButton
+                    android:id="@+id/togglebutton"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/toggle_button"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+              
+                <ImageView
+                    android:id="@+id/expand_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_clear" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<com.nhaarman.listviewanimations.itemmanipulation.DynamicListView-->
+            <!--android:id="@+id/wordslistView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:background="@color/Black"-->
+            <!--android:divider="@null"-->
+            <!--android:visibility="visible" >-->
+
+        <!--</com.nhaarman.listviewanimations.itemmanipulation.DynamicListView>-->
+
+        <!--<com.nhaarman.listviewanimations.itemmanipulation.DynamicListView-->
+            <!--android:id="@+id/idiomslistView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:background="@color/Black"-->
+            <!--android:divider="@null"-->
+            <!--android:visibility="gone" >-->
+
+        <!--</com.nhaarman.listviewanimations.itemmanipulation.DynamicListView>-->
+
+    </LinearLayout>
+
+</LinearLayout>

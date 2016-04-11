@@ -2,12 +2,14 @@ package com.vocadb.translator;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.os.Bundle;
+import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
@@ -15,17 +17,22 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.vocadb.translator.base.BaseActivity;
 import com.vocadb.translator.utilities.ColorPickerUtil;
 
-/**
- * Color Picker Activity Class
- *
- * Created by Adah Valeña on 4/5/2016.
- */
-public class ColorPickerActivity extends AppCompatActivity implements ColorPickerUtil.OnColorSelectedListener, View.OnClickListener {
+import java.util.ArrayList;
 
+/**
+ * Copyright 2016 VocaDB Software Development
+ * Created by Adah Valeña on 4/5/2016.
+ *
+ * Color Picker Activity class
+ */
+public class ColorPickerActivity extends BaseActivity implements ColorPickerUtil.OnColorSelectedListener,
+        View.OnClickListener {
+
+    // Color
     private int color;
-    private SharedPreferences prefs;
 
     // UI References
     private ImageView redCircleImageView;
@@ -41,14 +48,24 @@ public class ColorPickerActivity extends AppCompatActivity implements ColorPicke
     // Utility
     private ColorPickerUtil colorPickerUtil;
 
+    // Resources
+    private Resources res;
+
+
+    @Override
+    protected int getLayoutResource() {
+        return R.layout.activity_color_picker;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_color_picker);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        // Init resources
+        res = this.getResources();
+
+        // Set view theme
+        setTheme();
 
         // Instantiate UI components
         // Image views
@@ -86,26 +103,36 @@ public class ColorPickerActivity extends AppCompatActivity implements ColorPicke
     /**
      * Method to assign default colors
      *
-     * @param customcolor
+     * @param customColor
      * @return
      */
-    private Drawable getCircleDrawable(int customcolor) {
+    private Drawable getCircleDrawable(int customColor) {
         ShapeDrawable biggerCircle= new ShapeDrawable( new OvalShape());
         biggerCircle.setIntrinsicHeight( 60 );
         biggerCircle.setIntrinsicWidth( 60);
         biggerCircle.setBounds(new Rect(0, 0, 60, 60));
 
         // Check color
-        if(customcolor == R.color.Custom_RED) {
+        if(customColor == R.color.Custom_RED) {
             biggerCircle.getPaint().setColor(Color.parseColor("#CC0000"));
-        } else if(customcolor == R.color.Custom_BLUE) {
+        } else if(customColor == R.color.Custom_BLUE) {
             biggerCircle.getPaint().setColor(Color.parseColor("#0071C4"));
-        } else if(customcolor == R.color.Custom_DARK_BLUE) {
+        } else if(customColor == R.color.Custom_DARK_BLUE) {
             biggerCircle.getPaint().setColor(Color.parseColor("#054688"));
-        } else if(customcolor == R.color.Custom_SK_BLUE) {
+        } else if(customColor == R.color.Custom_SK_BLUE) {
             biggerCircle.getPaint().setColor(Color.parseColor("#465DBB"));
         }
         return biggerCircle;
+    }
+
+    /**
+     * Method to change screen theme based on user preferences
+     */
+    private void setTheme() {
+        // Get color from shared preferences
+        color = getSavedColor();
+        // Change toolbar title color
+        getToolbarTitle().setTextColor(color);
     }
 
     @Override
@@ -153,23 +180,15 @@ public class ColorPickerActivity extends AppCompatActivity implements ColorPicke
         finish();
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                onBackPressed();
-                return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
         Intent intent = new Intent();
+        // Get color from shared preferences
+        color = getSavedColor();
         intent.putExtra("color", color);
-        setResult(6, intent);
+        setResult(3, intent);
         finish();
     }
 

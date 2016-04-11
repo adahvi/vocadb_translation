@@ -33,7 +33,7 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:id="@+id/wordsbutton"
+                    android:id="@+id/words_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
@@ -41,14 +41,14 @@
                     android:enabled="false" />
 
                 <Button
-                    android:id="@+id/idomsbutton"
+                    android:id="@+id/idoms_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
                     android:text="Idioms"/>
 
                 <ToggleButton
-                    android:id="@+id/togglebutton"
+                    android:id="@+id/toggle_button"
                     android:layout_width="60dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -75,25 +75,25 @@
 
         </LinearLayout>
 
-        <!--<com.nhaarman.listviewanimations.itemmanipulation.DynamicListView-->
-            <!--android:id="@+id/wordslistView"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="fill_parent"-->
-            <!--android:background="@color/Black"-->
-            <!--android:divider="@null"-->
-            <!--android:visibility="visible" >-->
+        <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+            android:id="@+id/wordslistView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/Black"
+            android:divider="@null"
+            android:visibility="visible" >
 
-        <!--</com.nhaarman.listviewanimations.itemmanipulation.DynamicListView>-->
+        </com.nhaarman.listviewanimations.itemmanipulation.DynamicListView>
 
-        <!--<com.nhaarman.listviewanimations.itemmanipulation.DynamicListView-->
-            <!--android:id="@+id/idiomslistView"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="fill_parent"-->
-            <!--android:background="@color/Black"-->
-            <!--android:divider="@null"-->
-            <!--android:visibility="gone" >-->
+        <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+            android:id="@+id/idiomslistView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/Black"
+            android:divider="@null"
+            android:visibility="gone" >
 
-        <!--</com.nhaarman.listviewanimations.itemmanipulation.DynamicListView>-->
+        </com.nhaarman.listviewanimations.itemmanipulation.DynamicListView>
 
     </LinearLayout>
 

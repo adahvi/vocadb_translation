@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="text_large">37sp</dimen>
+    <dimen name="text_medium">29sp</dimen>
+    <dimen name="text_small">35sp</dimen>
+    <dimen name="text_extra_small">20sp</dimen>
+
+</resources>

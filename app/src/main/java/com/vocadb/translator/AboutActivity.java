@@ -1,28 +1,46 @@
 package com.vocadb.translator;
 
-import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.net.Uri;
+import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.widget.TextView;
 
-public class AboutActivity extends AppCompatActivity {
+import com.vocadb.translator.base.BaseActivity;
+
+/**
+ * Copyright 2016 VocaDB Software Development
+ * Created by Adah Valeña on 4/5/2016.
+ *
+ * About Activity class
+ */
+public class AboutActivity extends BaseActivity {
 
     // UI References
     private TextView versionNameView;
     private TextView appLinkView;
 
+    // Color
+    private int color;
+
+    // Resources
+    private Resources res;
+
+    @Override
+    protected int getLayoutResource() {
+        return R.layout.activity_about;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
+        // Init resources
+        res = this.getResources();
+
+        // Set view theme
+        setTheme();
 
         // Initialize UI components
         versionNameView = (TextView) findViewById(R.id.app_version);
@@ -43,4 +61,24 @@ public class AboutActivity extends AppCompatActivity {
         versionNameView.setText("Version" + appVersion);
     }
 
+    /**
+     * Method to initialize classes/libraries
+     */
+    private void init() {
+    }
+
+    /**
+     * Method to change screen theme based on user preferences
+     */
+    private void setTheme() {
+        // Get color from shared preferences
+        color = getSavedColor();
+        // Change toolbar title color
+        getToolbarTitle().setTextColor(color);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }

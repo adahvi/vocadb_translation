@@ -41,7 +41,7 @@ public  class ColorPickerUtil extends View {
 
 	private void init() {
 		prefs = PreferenceManager.getDefaultSharedPreferences(context);
-		color = prefs.getInt("color", Constants.color);
+		color = prefs.getInt("color", Constants.defaultColor);
 
 		mColors = new int[] {
 		            0xFFFF0000, 0xFFFF00FF, 0xFF0000FF, 0xFF00FFFF, 0xFF00FF00,

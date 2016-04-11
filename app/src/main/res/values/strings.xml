@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">VocaDB Translator</string>
+    <string name="app_url">www.vocadb.com</string>
+
+    <string name="language">Language</string>
+    <string name="sounds">Sound</string>
+    <string name="color">Color</string>
+    <string name="level">Level</string>
+    <string name="history">Clear History</string>
+    <string name="about">About</string>
+
+    <!-- API Keys -->
+    <string name="api_key_translator">3065</string>
+    <string name="api_key_dictionary">8888</string>
+    <string name="title_activity_main">Main Activity</string>
+
+    <!-- Home Menu -->
+    <string name="title_activity_language">Language</string>
+    <string name="title_activity_color_picker">Theme</string>
+    <string name="title_activity_level">Level</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- Global texts -->
+    <string name="loading">Loading...</string>
+    <string name="select_level">Select Level</string>
+    <string name="target_language">Target Language</string>
+
+    <!-- Button texts -->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Levels -->
+    <string name="level_college">College</string>
+    <string name="level_high3">High 3</string>
+    <string name="level_high2">High 2</string>
+    <string name="level_high1">High 1</string>
+    <string name="level_middle3">Middle 3</string>
+    <string name="level_middle2">Middle 2</string>
+    <string name="level_middle1">Middle 1</string>
+    <string name="level_elementary">Elementary</string>
+    <string name="level_nothing">Nothing</string>
+
+</resources>

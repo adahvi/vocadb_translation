@@ -17,88 +17,93 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_weight="1">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="@android:style/TextAppearance.Large"
             android:layout_marginBottom="10dp"
-            android:text="Choose Level"/>
+            android:text="@string/select_level"/>
 
-        <RadioGroup
-            android:id="@+id/levels_radio_group"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <!--<RadioGroup-->
+            <!--android:id="@+id/levels_radio_group"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
 
-            <RadioButton
-                android:id="@+id/college_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:text="@string/level_college"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/college_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/RadioButtonStyle"-->
+                <!--android:text="@string/level_college"/>-->
 
-            <RadioButton
-                android:id="@+id/high3_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:text="@string/level_high3"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/high3_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/RadioButtonStyle"-->
+                <!--android:text="@string/level_high3"/>-->
 
-            <RadioButton
-                android:id="@+id/high2_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:text="@string/level_high2"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/high2_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/RadioButtonStyle"-->
+                <!--android:text="@string/level_high2"/>-->
 
-            <RadioButton
-                android:id="@+id/high1_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:text="@string/level_high1"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/high1_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="10dip"-->
+                <!--android:text="@string/level_high1"/>-->
 
-            <RadioButton
-                android:id="@+id/middle3_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:text="@string/level_middle3"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/middle3_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/RadioButtonStyle"-->
+                <!--android:text="@string/level_middle3"/>-->
 
-            <RadioButton
-                android:id="@+id/middle2_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:text="@string/level_middle2"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/middle2_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/RadioButtonStyle"-->
+                <!--android:text="@string/level_middle2"/>-->
 
-            <RadioButton
-                android:id="@+id/middle1_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:checked="true"
-                android:text="@string/level_middle1"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/middle1_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/RadioButtonStyle"-->
+                <!--android:text="@string/level_middle1"/>-->
 
-            <RadioButton
-                android:id="@+id/elementary_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:text="@string/level_elementary"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/elementary_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/RadioButtonStyle"-->
+                <!--android:text="@string/level_elementary"/>-->
 
-            <RadioButton
-                android:id="@+id/nothing_radio_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10dip"
-                android:text="@string/level_nothing"/>
+            <!--<RadioButton-->
+                <!--android:id="@+id/nothing_radio_button"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/RadioButtonStyle"-->
+                <!--android:text="@string/level_nothing"/>-->
 
-        </RadioGroup>
+        <!--</RadioGroup>-->
 
     </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:divider="@null"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -114,17 +119,20 @@
 
             <Button
                 android:id="@+id/cancel_button"
+                style="@style/DefaultButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
                 android:layout_weight="1"
-                android:text="Cancel" />
+                android:text="@string/cancel" />
 
             <Button
                 android:id="@+id/ok_button"
+                style="@style/DefaultButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="OK" />
+                android:text="@string/ok" />
 
         </LinearLayout>
 

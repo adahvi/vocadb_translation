@@ -188,7 +188,7 @@ public class ColorPickerActivity extends BaseActivity implements ColorPickerUtil
         // Get color from shared preferences
         color = getSavedColor();
         intent.putExtra("color", color);
-        setResult(3, intent);
+        setResult(3,intent);
         finish();
     }
 

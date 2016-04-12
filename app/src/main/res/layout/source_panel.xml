@@ -22,7 +22,7 @@
           android:textColor="@color/Black"
           android:textColorHint="@color/Black"
           android:textCursorDrawable="@null"
-          android:textSize="21sp" />
+          android:textSize="21sp"/>
 
        <ImageView
            android:id="@+id/clearImageView"

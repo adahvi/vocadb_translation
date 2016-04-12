@@ -147,7 +147,7 @@ import com.vocadb.translator.databasehelpers.Database;
 import com.vocadb.translator.models.Language;
 import com.vocadb.translator.models.LanguageClass;
 
-public class LanguageActivity  extends BaseActivity implements View.OnClickListener {
+public class LanguageActivity extends BaseActivity implements View.OnClickListener {
 
     MyCustomAdapter dataAdapter = null;
     private Database db;
@@ -223,7 +223,6 @@ public class LanguageActivity  extends BaseActivity implements View.OnClickListe
     @Override
     public void onBackPressed() {
         Intent intent = new Intent();
-
         setResult(7, intent);
         finish();//finishing activity
         super.onBackPressed();
@@ -364,16 +363,12 @@ public class LanguageActivity  extends BaseActivity implements View.OnClickListe
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-
             Toast.makeText(getApplicationContext(),
                     "Language Updated", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent();
-
             setResult(2, intent);
-            finish();//finishing activity
-//            pdialog.dismiss();
+            finish(); //finishing activity
         }
-
 
     }
 }

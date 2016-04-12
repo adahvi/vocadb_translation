@@ -5,21 +5,21 @@
         jar="D:\projectandroid\vocaDBTranslator\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\1a\dependencies.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="e9f0e1eae3941389c80fae31700f634742ab41cb">
+        sha1="271ac3de9eae4f6d38d672b13b75f89a003e28ff">
         <dex dex="D:\projectandroid\vocaDBTranslator\app\build\intermediates\transforms\dex\debug\folders\1000\1a\dependencies_a7a8392d0b9b7cd522c242fe67cc4ac2b774b1b8\classes.dex" />
     </item>
     <item
         jar="D:\projectandroid\vocaDBTranslator\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\5\main_slice.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="e15e36819afe9be6bf05b971073e1279a69b76ef">
+        sha1="e1df4a15063070557ce56057f55b935d25fa4540">
         <dex dex="D:\projectandroid\vocaDBTranslator\app\build\intermediates\transforms\dex\debug\folders\1000\5\main_slice_bce1c8abf559f0b893d78e3997931ac5c9374492\classes.dex" />
     </item>
     <item
         jar="D:\projectandroid\vocaDBTranslator\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\5\main_sliceb.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="ccb93d2cd013d00334f19e22323daf48a13307f4">
+        sha1="ef568171c1b1602acfd134ce7ffdd38ec646cbed">
         <dex dex="D:\projectandroid\vocaDBTranslator\app\build\intermediates\transforms\dex\debug\folders\1000\5\main_sliceb_f9d0937aa34c1c9af6316b1f1797a320ebb92690\classes.dex" />
     </item>
 

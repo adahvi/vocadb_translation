@@ -101,8 +101,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Boolean exit = false;
     protected Boolean clear;
     private Boolean dark;
-    protected boolean isPlaying = false;
-    private Boolean play = false;
+    protected boolean isPlaying;
+    private boolean play = false;
     public boolean loadingWords = true;
     private boolean isFavorite;
 
@@ -683,85 +683,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.speakerImageView:
                 wordCount = countWords(sourceEditText.getText().toString());
-                if(wordCount >15) {
-                    // Check first if tts is in play/pause mode
-                    if (!play) {
-                        speakerImageView.setImageDrawable(getResources().getDrawable(android.R.drawable.ic_media_pause));
-                        play = true;
-                        textToSpeech = new TextToSpeech(getApplicationContext(),
-                                new TextToSpeech.OnInitListener() {
-                                    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-                                    @Override
-                                    public void onInit(int status) {
-                                        if(status != TextToSpeech.ERROR){
-                                            Locale locale = new Locale(db.getLanCode(sourceLangSpinner.getSelectedItem().toString()));
-                                            textToSpeech.setLanguage(locale);
-                                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                                                ttsGreater21(sourceEditText.getText().toString());
-                                            } else {
-                                                ttsUnder20(sourceEditText.getText().toString());
-                                            }
+                Log.d("Word count", String.valueOf(wordCount));
+                // Check first if tts is in play/pause mode
+                if (!play) {
+                    speakerImageView.setImageDrawable(getResources().getDrawable(android.R.drawable.ic_media_pause));
+                    play = true;
+                    textToSpeech = new TextToSpeech(getApplicationContext(),
+                            new TextToSpeech.OnInitListener() {
+                                @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+                                @Override
+                                public void onInit(int status) {
+                                    Log.d("MP Status", String.valueOf(status));
+                                    if(status != TextToSpeech.ERROR){
+                                        Locale locale = new Locale(db.getLanCode(sourceLangSpinner.getSelectedItem().toString()));
+                                        textToSpeech.setLanguage(locale);
+                                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                                            ttsGreater21(sourceEditText.getText().toString());
+                                        } else {
+                                            ttsUnder20(sourceEditText.getText().toString());
                                         }
                                     }
-                                });
-                    } else {
-                        textToSpeech.stop();
-                        speakerImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_speaker));
-                        play = false;
-                    }
+                                }
+                            });
                 } else {
-                    if (isInternetPresent()) {
-                        if (isPlaying) {
-                            mediaPlayer.stop();
-                            mediaPlayer.reset();
-                        } try {
-                            isPlaying = true;
-                            String s = "";
-                            try {
-                                s = URLDecoder.decode(sourceEditText.getText().toString(), "UTF-8");
-                            } catch (UnsupportedEncodingException e) {
-                                // TODO Auto-generated catch block
-                                e.printStackTrace();
-                            }
-                            mediaPlayer.setDataSource("http://www.appsmithing.com/v2_voca/api_vocadb_trans.php?apikey=8888&engin=0&tlang="
-                                    + db.getLanCode(sourceLangSpinner.getSelectedItem().toString())
-                                    + "&slang=en&q="
-                                    + s);
-                            mediaPlayer.prepareAsync();
-
-                        } catch (IOException e) {
-                            Log.i("error", "prepare() failed");
-                        }
-                    } else {
-                        // Check first if tts is in play/pause mode
-                        if (!play) {
-                            speakerImageView.setImageDrawable(getResources().getDrawable(android.R.drawable.ic_media_pause));
-                            play = true;
-
-                            textToSpeech = new TextToSpeech(getApplicationContext(),
-                                    new TextToSpeech.OnInitListener() {
-                                        @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-                                        @Override
-                                        public void onInit(int status) {
-                                            if(status != TextToSpeech.ERROR){
-                                                Locale locale = new Locale(db.getLanCode(sourceLangSpinner.getSelectedItem().toString()));
-                                                textToSpeech.setLanguage(locale);
-                                                // Check os version
-                                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                                                    ttsGreater21(sourceEditText.getText().toString());
-                                                } else {
-                                                    ttsUnder20(sourceEditText.getText().toString());
-                                                }
-                                            }
-                                        }
-                                    });
-                        } else {
-                            textToSpeech.stop();
-                            speakerImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_speaker));
-                            play = false;
-                        }
-                    }
-
+                    textToSpeech.stop();
+                    speakerImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_speaker));
+                    play = false;
                 }
                 break;
 

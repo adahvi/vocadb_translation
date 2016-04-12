@@ -81,6 +81,8 @@ public class LevelActivity extends ListActivity implements ActionBar.OnNavigatio
 
         level = prefs.getInt("level",21);
 
+        selectedPosition = prefs.getInt("selectedPosition", 6);
+
         // Set onclick listeners for button
         btnCancel.setOnClickListener(this);
         btnOk.setOnClickListener(this);

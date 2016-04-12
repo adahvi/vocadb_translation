@@ -27,71 +27,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5b74f0e-1767-4fbb-a30a-5ddfccc7361a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_info_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_notifications_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_sync_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_info_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_notifications_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_sync_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_info_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_notifications_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_sync_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_info_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_notifications_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_sync_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_info_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_notifications_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_sync_black_24dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib_core_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib_core_slh_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib_manipulation_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/JSONParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LanguageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/ServiceHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/adapters/LanguageAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/base/VocaDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_info_black_24dp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_notifications_black_24dp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_sync_black_24dp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_default_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_default_pressed_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_language.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_language.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/level_row.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_language.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_idiom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_lang.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_word.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/simple_spinner_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values-xxhdpi/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/AboutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/AboutActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/ColorPickerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/ColorPickerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LanguageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LanguageActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LevelActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LevelActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/utilities/ColorPickerUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/utilities/ColorPickerUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_color_picker.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_color_picker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_level.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_level.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_about.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_color_picker.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_color_picker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_level.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_level.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/vocadb_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/vocadb_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/source_panel.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/source_panel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="vocaDBTranslator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,53 +82,51 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.068966">
-              <caret line="1221" column="13" selection-start-line="1221" selection-start-column="13" selection-end-line="1221" selection-end-column="13" />
+            <state vertical-scroll-proportion="-6.62069">
+              <caret line="1219" column="0" selection-start-line="1219" selection-start-column="0" selection-end-line="1219" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7969#8151#0" expanded="true" />
-                <element signature="e#8150#8151#0" expanded="true" />
-                <element signature="e#8197#8380#0" expanded="true" />
-                <element signature="e#8379#8380#0" expanded="true" />
-                <element signature="e#8745#9186#0" expanded="true" />
-                <element signature="e#9185#9186#0" expanded="true" />
-                <element signature="e#9535#9980#0" expanded="true" />
-                <element signature="e#9979#9980#0" expanded="true" />
-                <element signature="e#10041#12739#0" expanded="true" />
-                <element signature="e#10260#10615#0" expanded="true" />
-                <element signature="e#10614#10615#0" expanded="true" />
-                <element signature="e#11533#11873#0" expanded="true" />
-                <element signature="e#11872#11873#0" expanded="true" />
-                <element signature="e#12738#12739#0" expanded="true" />
-                <element signature="e#12783#13307#0" expanded="true" />
-                <element signature="e#13306#13307#0" expanded="true" />
-                <element signature="e#13349#13671#0" expanded="true" />
-                <element signature="e#13670#13671#0" expanded="true" />
-                <element signature="e#13714#14036#0" expanded="true" />
-                <element signature="e#14035#14036#0" expanded="true" />
-                <element signature="e#29980#31008#0" expanded="true" />
-                <element signature="e#31007#31008#0" expanded="true" />
-                <element signature="e#32896#34048#0" expanded="true" />
-                <element signature="e#34047#34048#0" expanded="true" />
-                <element signature="e#34637#35285#0" expanded="true" />
-                <element signature="e#35284#35285#0" expanded="true" />
-                <element signature="e#36301#36985#0" expanded="true" />
-                <element signature="e#36984#36985#0" expanded="true" />
-                <element signature="e#37138#37139#0" expanded="true" />
-                <element signature="e#37208#37209#0" expanded="true" />
-                <element signature="e#56425#56457#0" expanded="true" />
-                <element signature="e#64716#65344#0" expanded="true" />
-                <element signature="e#65343#65344#0" expanded="true" />
-                <element signature="e#65398#67511#0" expanded="true" />
-                <element signature="e#65443#65475#0" expanded="true" />
-                <element signature="e#66790#67455#0" expanded="true" />
-                <element signature="e#67454#67455#0" expanded="true" />
-                <element signature="e#67510#67511#0" expanded="true" />
-                <element signature="e#70168#70799#0" expanded="true" />
-                <element signature="e#70798#70799#0" expanded="true" />
-                <element signature="e#70853#71958#0" expanded="true" />
-                <element signature="e#71957#71958#0" expanded="true" />
-                <marker date="1460364496246" expanded="true" signature="41841:41946" placeholder="..." />
+                <element signature="e#7961#8143#0" expanded="true" />
+                <element signature="e#8142#8143#0" expanded="true" />
+                <element signature="e#8189#8372#0" expanded="true" />
+                <element signature="e#8371#8372#0" expanded="true" />
+                <element signature="e#8737#9178#0" expanded="true" />
+                <element signature="e#9177#9178#0" expanded="true" />
+                <element signature="e#9527#9972#0" expanded="true" />
+                <element signature="e#9971#9972#0" expanded="true" />
+                <element signature="e#10033#12731#0" expanded="true" />
+                <element signature="e#10252#10607#0" expanded="true" />
+                <element signature="e#10606#10607#0" expanded="true" />
+                <element signature="e#11525#11865#0" expanded="true" />
+                <element signature="e#11864#11865#0" expanded="true" />
+                <element signature="e#12730#12731#0" expanded="true" />
+                <element signature="e#12775#13299#0" expanded="true" />
+                <element signature="e#13298#13299#0" expanded="true" />
+                <element signature="e#13341#13663#0" expanded="true" />
+                <element signature="e#13662#13663#0" expanded="true" />
+                <element signature="e#13706#14028#0" expanded="true" />
+                <element signature="e#14027#14028#0" expanded="true" />
+                <element signature="e#29976#31028#0" expanded="true" />
+                <element signature="e#31027#31028#0" expanded="true" />
+                <element signature="e#31536#32184#0" expanded="true" />
+                <element signature="e#32183#32184#0" expanded="true" />
+                <element signature="e#33200#33884#0" expanded="true" />
+                <element signature="e#33883#33884#0" expanded="true" />
+                <element signature="e#34037#34038#0" expanded="true" />
+                <element signature="e#34107#34108#0" expanded="true" />
+                <element signature="e#53324#53356#0" expanded="true" />
+                <element signature="e#61615#62243#0" expanded="true" />
+                <element signature="e#62242#62243#0" expanded="true" />
+                <element signature="e#62297#64410#0" expanded="true" />
+                <element signature="e#62342#62374#0" expanded="true" />
+                <element signature="e#63689#64354#0" expanded="true" />
+                <element signature="e#64353#64354#0" expanded="true" />
+                <element signature="e#64409#64410#0" expanded="true" />
+                <element signature="e#67067#67698#0" expanded="true" />
+                <element signature="e#67697#67698#0" expanded="true" />
+                <element signature="e#67752#68857#0" expanded="true" />
+                <element signature="e#68856#68857#0" expanded="true" />
+                <marker date="1460370321831" expanded="true" signature="38740:38845" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -190,8 +135,8 @@
       <file leaf-file-name="ColorPickerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/ColorPickerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7235577">
-              <caret line="88" column="66" selection-start-line="88" selection-start-column="66" selection-end-line="88" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.86848634">
+              <caret line="180" column="5" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,14 +147,14 @@
       <file leaf-file-name="LanguageActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LanguageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-69.37931">
-              <caret line="224" column="37" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
+            <state vertical-scroll-proportion="-97.72414">
+              <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4705#4706#0" expanded="true" />
-                <element signature="e#4754#4755#0" expanded="true" />
-                <element signature="e#8446#8767#0" expanded="true" />
-                <element signature="e#8766#8767#0" expanded="true" />
+                <element signature="e#4704#4705#0" expanded="true" />
+                <element signature="e#4753#4754#0" expanded="true" />
+                <element signature="e#8444#8765#0" expanded="true" />
+                <element signature="e#8764#8765#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -218,25 +163,15 @@
       <file leaf-file-name="LevelActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LevelActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+            <state vertical-scroll-proportion="-14.172414">
+              <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
               <folding>
-                <element signature="e#3231#3239#0" expanded="true" />
-                <element signature="e#4110#4377#0" expanded="true" />
-                <element signature="e#4376#4377#0" expanded="true" />
-                <element signature="e#6553#6554#0" expanded="true" />
-                <element signature="e#6581#6582#0" expanded="true" />
+                <element signature="e#3296#3304#0" expanded="true" />
+                <element signature="e#4175#4442#0" expanded="true" />
+                <element signature="e#4441#4442#0" expanded="true" />
+                <element signature="e#6618#6619#0" expanded="true" />
+                <element signature="e#6646#6647#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -269,8 +204,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8292683">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            <state vertical-scroll-proportion="-1.3414634">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="e#627#652#0" expanded="true" />
               </folding>
@@ -278,15 +213,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="control_panel.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/control_panel.xml">
+      <file leaf-file-name="source_panel.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/source_panel.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.090909">
-              <caret line="34" column="41" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="41" />
-              <folding />
+            <state vertical-scroll-proportion="3.6190476">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding>
+                <element signature="e#523#558#0" expanded="true" />
+                <element signature="e#590#625#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -294,8 +232,8 @@
       <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/base/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.655172">
-              <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+            <state vertical-scroll-proportion="-3.9655173">
+              <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
               <folding>
                 <element signature="e#2090#2091#0" expanded="true" />
                 <element signature="e#2121#2122#0" expanded="true" />
@@ -2006,7 +1944,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/AboutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/output_panel.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/source_panel.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/base/VocaDB.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/JSONParser.java" />
@@ -2025,11 +1962,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/vocadb_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/base/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/ServiceHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_lang.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LevelActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/level_row.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_level.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/source_panel.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LevelActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LanguageActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/ColorPickerActivity.java" />
       </list>
@@ -3019,7 +2957,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3027,7 +2965,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47385985" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52057844" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3003337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3040,7 +2978,7 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22867803" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22867803" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34260288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -3105,7 +3043,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/MainActivity.java</url>
-          <line>944</line>
+          <line>891</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -3114,14 +3052,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_default_pressed_bg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31398416">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_default_bg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
@@ -3224,14 +3154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/JSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -3320,17 +3242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/source_panel.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.789823">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308">
@@ -3381,17 +3292,6 @@
           <folding>
             <element signature="e#459#484#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3525,19 +3425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_language.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69313306">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#783#808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_language.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -3546,19 +3433,6 @@
         <state vertical-scroll-proportion="0.54077256">
           <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/level_row.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8292683">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding>
-            <element signature="e#627#652#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3582,6 +3456,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/JSONParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71460176">
+          <caret line="170" column="35" selection-start-line="170" selection-start-column="35" selection-end-line="170" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3590,23 +3472,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/media/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1178" column="23" selection-start-line="1178" selection-start-column="23" selection-end-line="1178" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41935483">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/source_panel.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6190476">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#523#558#0" expanded="true" />
+            <element signature="e#590#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/level_row.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3414634">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="e#627#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LevelActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+        <state vertical-scroll-proportion="-14.172414">
+          <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
           <folding>
-            <element signature="e#3231#3239#0" expanded="true" />
-            <element signature="e#4110#4377#0" expanded="true" />
-            <element signature="e#4376#4377#0" expanded="true" />
-            <element signature="e#6553#6554#0" expanded="true" />
-            <element signature="e#6581#6582#0" expanded="true" />
+            <element signature="e#3296#3304#0" expanded="true" />
+            <element signature="e#4175#4442#0" expanded="true" />
+            <element signature="e#4441#4442#0" expanded="true" />
+            <element signature="e#6618#6619#0" expanded="true" />
+            <element signature="e#6646#6647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_language.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5904936">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LanguageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-97.72414">
+          <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4704#4705#0" expanded="true" />
+            <element signature="e#4753#4754#0" expanded="true" />
+            <element signature="e#8444#8765#0" expanded="true" />
+            <element signature="e#8764#8765#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/base/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61295974">
+        <state vertical-scroll-proportion="0.33088234">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
         </state>
@@ -3614,8 +3567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/base/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.655172">
-          <caret line="61" column="52" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
+        <state vertical-scroll-proportion="-3.9655173">
+          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
           <folding>
             <element signature="e#2090#2091#0" expanded="true" />
             <element signature="e#2121#2122#0" expanded="true" />
@@ -3635,75 +3588,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.068966">
-          <caret line="1221" column="13" selection-start-line="1221" selection-start-column="13" selection-end-line="1221" selection-end-column="13" />
+        <state vertical-scroll-proportion="-6.62069">
+          <caret line="1219" column="0" selection-start-line="1219" selection-start-column="0" selection-end-line="1219" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7969#8151#0" expanded="true" />
-            <element signature="e#8150#8151#0" expanded="true" />
-            <element signature="e#8197#8380#0" expanded="true" />
-            <element signature="e#8379#8380#0" expanded="true" />
-            <element signature="e#8745#9186#0" expanded="true" />
-            <element signature="e#9185#9186#0" expanded="true" />
-            <element signature="e#9535#9980#0" expanded="true" />
-            <element signature="e#9979#9980#0" expanded="true" />
-            <element signature="e#10041#12739#0" expanded="true" />
-            <element signature="e#10260#10615#0" expanded="true" />
-            <element signature="e#10614#10615#0" expanded="true" />
-            <element signature="e#11533#11873#0" expanded="true" />
-            <element signature="e#11872#11873#0" expanded="true" />
-            <element signature="e#12738#12739#0" expanded="true" />
-            <element signature="e#12783#13307#0" expanded="true" />
-            <element signature="e#13306#13307#0" expanded="true" />
-            <element signature="e#13349#13671#0" expanded="true" />
-            <element signature="e#13670#13671#0" expanded="true" />
-            <element signature="e#13714#14036#0" expanded="true" />
-            <element signature="e#14035#14036#0" expanded="true" />
-            <element signature="e#29980#31008#0" expanded="true" />
-            <element signature="e#31007#31008#0" expanded="true" />
-            <element signature="e#32896#34048#0" expanded="true" />
-            <element signature="e#34047#34048#0" expanded="true" />
-            <element signature="e#34637#35285#0" expanded="true" />
-            <element signature="e#35284#35285#0" expanded="true" />
-            <element signature="e#36301#36985#0" expanded="true" />
-            <element signature="e#36984#36985#0" expanded="true" />
-            <element signature="e#37138#37139#0" expanded="true" />
-            <element signature="e#37208#37209#0" expanded="true" />
-            <element signature="e#56425#56457#0" expanded="true" />
-            <element signature="e#64716#65344#0" expanded="true" />
-            <element signature="e#65343#65344#0" expanded="true" />
-            <element signature="e#65398#67511#0" expanded="true" />
-            <element signature="e#65443#65475#0" expanded="true" />
-            <element signature="e#66790#67455#0" expanded="true" />
-            <element signature="e#67454#67455#0" expanded="true" />
-            <element signature="e#67510#67511#0" expanded="true" />
-            <element signature="e#70168#70799#0" expanded="true" />
-            <element signature="e#70798#70799#0" expanded="true" />
-            <element signature="e#70853#71958#0" expanded="true" />
-            <element signature="e#71957#71958#0" expanded="true" />
-            <marker date="1460364496246" expanded="true" signature="41841:41946" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/LanguageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-69.37931">
-          <caret line="224" column="37" selection-start-line="224" selection-start-column="37" selection-end-line="224" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4705#4706#0" expanded="true" />
-            <element signature="e#4754#4755#0" expanded="true" />
-            <element signature="e#8446#8767#0" expanded="true" />
-            <element signature="e#8766#8767#0" expanded="true" />
+            <element signature="e#7961#8143#0" expanded="true" />
+            <element signature="e#8142#8143#0" expanded="true" />
+            <element signature="e#8189#8372#0" expanded="true" />
+            <element signature="e#8371#8372#0" expanded="true" />
+            <element signature="e#8737#9178#0" expanded="true" />
+            <element signature="e#9177#9178#0" expanded="true" />
+            <element signature="e#9527#9972#0" expanded="true" />
+            <element signature="e#9971#9972#0" expanded="true" />
+            <element signature="e#10033#12731#0" expanded="true" />
+            <element signature="e#10252#10607#0" expanded="true" />
+            <element signature="e#10606#10607#0" expanded="true" />
+            <element signature="e#11525#11865#0" expanded="true" />
+            <element signature="e#11864#11865#0" expanded="true" />
+            <element signature="e#12730#12731#0" expanded="true" />
+            <element signature="e#12775#13299#0" expanded="true" />
+            <element signature="e#13298#13299#0" expanded="true" />
+            <element signature="e#13341#13663#0" expanded="true" />
+            <element signature="e#13662#13663#0" expanded="true" />
+            <element signature="e#13706#14028#0" expanded="true" />
+            <element signature="e#14027#14028#0" expanded="true" />
+            <element signature="e#29976#31028#0" expanded="true" />
+            <element signature="e#31027#31028#0" expanded="true" />
+            <element signature="e#31536#32184#0" expanded="true" />
+            <element signature="e#32183#32184#0" expanded="true" />
+            <element signature="e#33200#33884#0" expanded="true" />
+            <element signature="e#33883#33884#0" expanded="true" />
+            <element signature="e#34037#34038#0" expanded="true" />
+            <element signature="e#34107#34108#0" expanded="true" />
+            <element signature="e#53324#53356#0" expanded="true" />
+            <element signature="e#61615#62243#0" expanded="true" />
+            <element signature="e#62242#62243#0" expanded="true" />
+            <element signature="e#62297#64410#0" expanded="true" />
+            <element signature="e#62342#62374#0" expanded="true" />
+            <element signature="e#63689#64354#0" expanded="true" />
+            <element signature="e#64353#64354#0" expanded="true" />
+            <element signature="e#64409#64410#0" expanded="true" />
+            <element signature="e#67067#67698#0" expanded="true" />
+            <element signature="e#67697#67698#0" expanded="true" />
+            <element signature="e#67752#68857#0" expanded="true" />
+            <element signature="e#68856#68857#0" expanded="true" />
+            <marker date="1460370321831" expanded="true" signature="38740:38845" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vocadb/translator/ColorPickerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7235577">
-          <caret line="88" column="66" selection-start-line="88" selection-start-column="66" selection-end-line="88" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.86848634">
+          <caret line="180" column="5" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
